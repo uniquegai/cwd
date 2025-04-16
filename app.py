@@ -3,9 +3,8 @@ import importlib
 
 # Mapping of dropdown options to file names
 model_mapping = {
-    "M1 ChatBot - OpenAI": "m1_chatbot_openai",
-    "M1 ChatBot - LLaMA": "m1_chatbot_llama",
-    "M1 ChatBot - DeepSeek": "m1_chatbot_deepseek"
+    "ChatBot - LLaMA": "chatbot_llama",
+    
 }
 
 # Set default model on first run
