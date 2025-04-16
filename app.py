@@ -3,7 +3,7 @@ import importlib
 
 # Mapping of dropdown options to file names
 model_mapping = {
-    "ChatBot - LLaMA": "m1_chatbot_llama",
+    "M1 ChatBot - LLaMA": "m1_chatbot_llama",
     
 }
 
