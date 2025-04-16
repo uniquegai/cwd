@@ -47,8 +47,8 @@ def query_groq_llama(prompt):
 
 def main():
     # Streamlit app starts here
-    st.title("M1 Dynamic Data Bot")
-    st.write("Interact with your M1 data dynamically!")
+    st.title("Chat with your Data")
+    st.write("Chat with data smartly and get insights explained!")
 
     # Initialize session state to store conversation
     if "conversation" not in st.session_state:
