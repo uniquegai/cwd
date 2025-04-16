@@ -3,13 +3,12 @@ import importlib
 
 # Mapping of dropdown options to file names
 model_mapping = {
-    "M1 ChatBot - LLaMA": "m1_chatbot_llama",
-    
+    "M1 ChatBot - LLaMA": "m1_chatbot_llama"    
 }
 
 # Set default model on first run
 if "selected_model" not in st.session_state:
-    st.session_state.selected_model = "ChatBot - LLAMA"  # Default selection
+    st.session_state.selected_model = "M1 ChatBot - LLaMA"  # Default selection
 
 # Sidebar dropdown for model selection
 selected_option = st.sidebar.selectbox(
